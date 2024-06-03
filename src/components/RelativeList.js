@@ -6,10 +6,10 @@ function RelativeList() {
     return (
         <div>
             <h1>Diwali is coming. It's time to shop. Here are the relatives I am planning to visit:</h1>
-            <ol key='relativeList'>
+            <ol id='relativeList' key='relativeList'>
                     {
                        relatives.map((relative, index) => (
-                        <li key={`RelativeListItem${index + 1}`}>{relative}</li>
+                        <li id='relativeListItem1' key={`RelativeListItem${index + 1}`}>{relative}</li>
                        )) 
                     }
             </ol>
