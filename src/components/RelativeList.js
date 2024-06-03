@@ -1,3 +1,5 @@
+import React from 'react';
+
 function RelativeList() {
     const relatives = ['Uncle John', 'Aunt Mary', 'Cousin Jim', 'Grandma Anna', 'Grandpa Joe'];
 
